@@ -1,0 +1,7 @@
+anthropic>=0.40.0
+requests>=2.31.0
+networkx>=3.2
+pandas>=2.1
+tabulate>=0.9
+matplotlib>=3.8
+# Cài riêng, không qua pip: sqlmap, nuclei (xem README)

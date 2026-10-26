@@ -1,0 +1,13 @@
+scenario,condition,success_mean,success_std,planning_time_sec_mean,planning_time_sec_std,replanning_count_mean,replanning_count_std,exploit_chain_length_mean,exploit_chain_length_std,coverage_mean,coverage_std,exploit_efficiency_mean,exploit_efficiency_std,llm_calls_mean,llm_calls_std,input_tokens_mean,input_tokens_std,output_tokens_mean,output_tokens_std,estimated_cost_usd_mean,estimated_cost_usd_std,llm_refusals_mean,llm_refusals_std,llm_fallbacks_mean,llm_fallbacks_std,llm_empty_mean,llm_empty_std
+5.2.1_auth_bypass_session_hijack,full,1.0,0.0,7.39,0.158,0.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,426.0,0.0,59.375,9.211,0.001,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+5.2.1_auth_bypass_session_hijack,no_memory,1.0,0.0,7.336,0.204,0.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,426.0,0.0,58.125,11.357,0.001,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+5.2.1_auth_bypass_session_hijack,static,1.0,0.0,0.092,0.018,0.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+5.2.2_auth_bypass_idor_leak,full,1.0,0.0,10.799,0.271,0.0,0.0,2.0,0.0,1.0,0.0,1.0,0.0,2.0,0.0,949.375,0.916,150.875,11.667,0.003,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+5.2.2_auth_bypass_idor_leak,no_memory,1.0,0.0,10.735,0.289,0.0,0.0,2.0,0.0,1.0,0.0,1.0,0.0,2.0,0.0,949.625,0.916,146.75,8.172,0.003,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+5.2.2_auth_bypass_idor_leak,static,1.0,0.0,0.894,0.09,0.0,0.0,2.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+5.2.3_sqli_privesc,full,1.0,0.0,16.355,3.011,0.0,0.0,2.0,0.0,1.0,0.0,1.0,0.0,2.0,0.0,907.375,1.408,135.5,8.211,0.003,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+5.2.3_sqli_privesc,no_memory,1.0,0.0,15.366,0.689,0.0,0.0,2.0,0.0,1.0,0.0,1.0,0.0,2.0,0.0,907.625,1.598,137.5,6.908,0.003,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+5.2.3_sqli_privesc,static,0.0,0.0,2.959,0.092,0.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+5.2.4_adaptive_replanning_idor_sqli,full,1.0,0.0,36.539,1.756,0.0,0.0,2.0,0.0,0.5,0.0,1.0,0.0,2.0,0.0,1012.25,1.035,148.25,10.389,0.004,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+5.2.4_adaptive_replanning_idor_sqli,no_memory,1.0,0.0,49.802,9.857,0.0,0.0,2.0,0.0,0.5,0.0,1.0,0.0,2.0,0.0,1012.25,1.035,159.625,8.831,0.004,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+5.2.4_adaptive_replanning_idor_sqli,static,0.0,0.0,39.526,15.49,0.0,0.0,2.0,0.0,1.0,0.0,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
